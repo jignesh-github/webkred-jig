@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="WebKred.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>WebKred Home Page</title>
+    <link rel="stylesheet" type="text/css" href="CSS/MainSiteStyle.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="mainmenu">
+        <a href="Default.aspx">Home</a> <a href="ContentPage.aspx">Tour</a> <a href="ContentPage.aspx">
+            What People are Saying</a> <a href="ContentPage.aspx">Extras/Add-ons</a><a href="ContentPage.aspx">Help/Support</a>
+        <a href="PlansAndPricing.aspx">Plans and Pricing</a> <a href="Login.aspx">Sign In</a>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

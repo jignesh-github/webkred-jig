@@ -1,0 +1,1 @@
+﻿1)	check for createdDate(compound) field in database for all tables. it gives same time and date for all record.

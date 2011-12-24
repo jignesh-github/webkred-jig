@@ -1,0 +1,28 @@
+﻿body
+{
+    margin: 0px auto;
+    padding: 0px;
+}
+.mainmenu
+{
+    background-color: #0082B0;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+a
+{
+    margin: 2.5%;
+    text-decoration: none;
+    /*color: White;*/
+}
+a:hover
+{
+    color: Black;
+    text-decoration: underline;
+}
+.homemain
+{
+    text-align: center;
+    padding-top: 5%;
+}
