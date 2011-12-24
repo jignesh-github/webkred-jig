@@ -254,7 +254,7 @@ namespace WebKred
 
                                 if (File.Exists(filePath))
                                 {
-                                    File.SetAttributes(filePath, File.GetAttributes(filePath) & ~FileAttributes.ReadOnly);
+                                    //File.SetAttributes(filePath, File.GetAttributes(filePath) & ~FileAttributes.ReadOnly);
                                 }
 
                                 divSOWAttachDoc.InnerHtml += "<div id=\"mDiv_" + dt.Rows[index]["SowDetailId"].ToString()
